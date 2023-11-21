@@ -1,0 +1,15 @@
+[package]
+name = "ayoung-podcast-app"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "0.6.20"
+shuttle-axum = "0.33.0"
+shuttle-runtime = "0.33.0"
+tokio = "1.28.2"
+tracing = "0.1.40"
+# adding more dependency
+reqwest = "0.11.18"
+xml = "0.8.10"
+anyhow = "1.0.71"
